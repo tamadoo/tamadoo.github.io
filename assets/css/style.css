@@ -1,0 +1,55 @@
+:root {
+  --md-primary: #CFBCFF;
+  --md-on-primary: #381E72;
+  --md-primary-container: #4F378B;
+  --md-on-primary-container: #EADDFF;
+
+  --md-secondary: #CBC2DB;
+  --md-on-secondary: #332D41;
+  --md-secondary-container: #4A4458;
+  --md-on-secondary-container: #E8DEF8;
+
+  --md-tertiary: #EFB8C8;
+  --md-on-tertiary: #492532;
+  --md-tertiary-container: #633B48;
+  --md-on-tertiary-container: #FFD8E4;
+
+  --md-error: #F2B8B5;
+  --md-on-error: #601410;
+  --md-error-container: #8C1D18;
+  --md-on-error-container: #F9DEDC;
+
+  --md-background: #1C1B1F;
+  --md-on-background: #E6E1E5;
+  --md-surface: #1C1B1F;
+  --md-on-surface: #E6E1E5;
+  --md-surface-variant: #49454F;
+  --md-on-surface-variant: #CAC4D0;
+  --md-outline: #938F99;
+}
+body {
+  background-color: var(--md-background);
+  color: var(--md-on-background);
+}
+.card {
+  background-color: var(--md-surface);
+  color: var(--md-on-surface);
+  border: 1px solid var(--md-outline);
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.card-title {
+  color: var(--md-on-surface);
+  font-weight: 600;
+}
+.card-text {
+  color: var(--md-on-surface-variant);
+}
+.btn-primary {
+  background-color: var(--md-primary);
+  border: none;
+  color: var(--md-on-primary);
+}
+.btn-primary:hover {
+  background-color: #56398F;
+}
