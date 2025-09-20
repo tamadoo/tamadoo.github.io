@@ -1,8 +1,8 @@
 :root {
-  --md-primary: #CFBCFF;
-  --md-on-primary: #381E72;
-  --md-primary-container: #4F378B;
-  --md-on-primary-container: #EADDFF;
+  --md-primary: #1CA4ED;
+  --md-on-primary: #002B3E;
+  --md-primary-container: #004B66;
+  --md-on-primary-container: #B8E6FF;
 
   --md-secondary: #CBC2DB;
   --md-on-secondary: #332D41;
@@ -50,6 +50,6 @@ body {
   border: none;
   color: var(--md-on-primary);
 }
-.btn-primary:hover {
-  background-color: #56398F;
+hr {
+  margin: 0;
 }
