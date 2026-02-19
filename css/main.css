@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.rubik-500 {
+    transition: 0.2s;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--tropical-teal);
+}
+.rubik-700 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+:root {
+    --graphite: #312F2F;
+    --pearl-aqua: #84DCCF;
+    --granite: #465B57;
+    --tropical-teal: #70B1A7;
+    --deep-teal: #5B867F;
+    --gun-metal: #373A39;
+
+    /* https://coolors.co/312f2f-373a39-465b57-5b867f-70b1a7-84dccf */
+
+}
+body {
+    background-color: var(--graphite);
+    min-width: 400px;
+
+}
+nav {
+    background-color: var(--graphite);
+}
+nav > div {
+    height: 70px;
+    max-width: 1200px;
+    border-bottom: var(--tropical-teal) 2px solid;
+    border-left: var(--graphite) 2px solid;
+    border-right: var(--graphite) 2px solid;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* nav > div > div {
+    /* max-width: 1200px;
+    border-bottom: var(--tropical-teal) 2px solid; */
+    /* border-left: var(--graphite) 2px solid;
+    border-right: var(--graphite) 2px solid;
+    border-radius: 1rem;
+} */
+#navItem {
+    transition: 0.2s;
+    /* margin-bottom: 8px; */
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: var(--deep-teal) 2px solid;
+    border-radius: 0.5rem;
+    text-align: center;
+    min-width: 100px;
+}
+#navItem:hover {
+    transition: 0.2s;
+    border-bottom: var(--tropical-teal) 2px solid;
+    box-shadow: 0px -3px 6px 1px var(--gun-metal);
+    #nav_text, #svg {
+        color: var(--pearl-aqua);
+    }
+}
+#nav_text {
+    transition: 0.2s;
+    display: inline;
+}
+#svg {
+    transition: 0.2s;
+}
+.header {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 0px 10px;
+    
+}
+@media screen and (min-width: 1200px){
+    .header {
+        border-left: 2px var(--tropical-teal) solid;
+        border-right: 2px var(--tropical-teal) solid;
+    }
+}
+.header_cont {
+    color: var(--pearl-aqua);
+    text-decoration: none;
+    
+}
+@media screen and (max-width: 550px) {
+    #nav_text {
+        display: none;
+    }
+    #svg {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+/* Construction oldal */
+
+#const_b {
+    background-image: url(../assets/const_screen_d.png);
+    background-position: center;
+    background-size: cover;
+}
+.card {
+    background-color: var(--gun-metal);
+    color: var(--tropical-teal);
+    border: 1px solid var(--tropical-teal);
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.btn-primary {
+    background-color: var(--md-primary);
+    border: none;
+    color: var(--md-on-primary);
+}
+hr {
+    margin: auto;
+    border: 0;
+}
+.card-body {
+    border-top: var(--tropical-teal) 1px dashed;
+}
