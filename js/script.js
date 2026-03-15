@@ -53,7 +53,7 @@ function constructionTimeBaby() {
         <div class="card-body">
             <h5 class="card-title rubik-700">!!Under construction!!</h5>
             <p class="card-text rubik-500">This site is under development!</p>
-            <p class="card-text rubik-500">Planned release date: <b>2026.03.10</b></p>
+            <p class="card-text rubik-500">Planned release date: <b>2026.04.12</b></p>
         </div>
     </div>
     `
